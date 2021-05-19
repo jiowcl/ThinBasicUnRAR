@@ -13,7 +13,7 @@ UnRAR Wrapper for ThinBasic Programming Language.
 ## How to Build
 
 Building requires ThinBasic Interpreter and test under Windows 10. 
-Module features require ThinBasic 1.11.2 and above.
+Type features require ThinBasic 1.4.0 and above.
 
 ## Example
 
