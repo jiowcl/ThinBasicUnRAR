@@ -49,7 +49,7 @@ hRARArchiveHandle = UnRAR.OpenArchiveEx(ArchiveData)
 If ArchiveData.OpenResult = $ERAR_SUCCESS Then
   Printl("Source: " . lpszSampleFilePath)
 
-  While UnRAR.ReadHeaderEx(hRARArchiveHandle, HeaderData) = 0
+  While UnRAR.ReadHeaderEx(hRARArchiveHandle, HeaderData) = $ERAR_SUCCESS
     hUnRARProcCode = UnRAR.ProcessFileW(hRARArchiveHandle, $RAR_TEST, "", "")
     
     Printl "Test File: " . HeaderData.FileNameW
