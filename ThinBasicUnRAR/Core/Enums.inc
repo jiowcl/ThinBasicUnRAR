@@ -127,4 +127,4 @@ Type RAROpenArchiveDataEx
   OpFlags       As Long
   CmtBufW       As String
   Reserved(25)  As Long
-end type
+End type
