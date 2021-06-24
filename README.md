@@ -20,7 +20,7 @@ Type features require ThinBasic 1.4.0 and above.
 Extract the RAR file
 
 ```vb
-USES "CONSOLE"
+Uses "CONSOLE"
 
 #INCLUDE Once ".\Core\Enums.inc"
 #INCLUDE Once ".\Core\Runtime.inc"
@@ -54,7 +54,7 @@ If ArchiveData.OpenResult = $ERAR_SUCCESS Then
     
     Printl "Test File: " . HeaderData.FileNameW
   Wend
-end if
+End If
 
 UnRAR.CloseArchive(hRARArchiveHandle)
 ```
