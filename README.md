@@ -3,6 +3,7 @@
 UnRAR Wrapper for ThinBasic Programming Language.
 
 ![GitHub](https://img.shields.io/github/license/jiowcl/ThinBasicUnRAR.svg)
+![ThinBasic](https://img.shields.io/badge/language-ThinBasic-blue.svg)
 
 ## Environment
 
