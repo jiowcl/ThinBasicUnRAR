@@ -62,7 +62,7 @@ UnRAR.CloseArchive(hRARArchiveHandle)
 
 ## License
 
-Copyright (c) 2020-2021 Ji-Feng Tsai.  
+Copyright (c) 2020-2022 Ji-Feng Tsai.  
 Code released under the MIT license.  
 
 ## TODO
