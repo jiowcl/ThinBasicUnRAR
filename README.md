@@ -48,12 +48,12 @@ ArchiveData.CmtBufSize = 0
 hRARArchiveHandle = UnRAR.OpenArchiveEx(ArchiveData)
 
 If ArchiveData.OpenResult = $ERAR_SUCCESS Then
-  Printl("Source: " . lpszSampleFilePath)
+  Printl("Source: " & lpszSampleFilePath)
 
   While UnRAR.ReadHeaderEx(hRARArchiveHandle, HeaderData) = $ERAR_SUCCESS
     hUnRARProcCode = UnRAR.ProcessFileW(hRARArchiveHandle, $RAR_TEST, "", "")
     
-    Printl "Test File: " . HeaderData.FileNameW
+    Printl "Test File: " & HeaderData.FileNameW
   Wend
 End If
 
@@ -62,7 +62,7 @@ UnRAR.CloseArchive(hRARArchiveHandle)
 
 ## License
 
-Copyright (c) 2020-2022 Ji-Feng Tsai.  
+Copyright (c) 2020-2024 Ji-Feng Tsai.  
 Code released under the MIT license.  
 
 ## TODO
