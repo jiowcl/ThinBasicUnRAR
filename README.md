@@ -8,7 +8,7 @@ UnRAR Wrapper for ThinBasic Programming Language.
 ## Environment
 
 - Windows 7 above (recommend)  
-- ThinBasic 1.10 above (recommend)  
+- ThinBasic 1.13 above (recommend)  
 - [UnRAR](https://www.rarlab.com/rar_add.htm)  
 
 ## How to Build

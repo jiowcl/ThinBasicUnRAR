@@ -41,4 +41,6 @@ End If
 
 UnRAR.CloseArchive(hRARArchiveHandle)
 
+Printl("Completed!")
+
 Console_Read()

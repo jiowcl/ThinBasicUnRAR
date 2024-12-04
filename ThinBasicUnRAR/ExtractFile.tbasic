@@ -40,4 +40,6 @@ End If
 
 RARCloseArchive(hRARArchiveHandle)
 
+Printl("Completed!")
+
 Console_Read()
