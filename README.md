@@ -8,7 +8,7 @@ UnRAR Wrapper for ThinBasic Programming Language.
 ## Environment
 
 - Windows 7 above (recommend)  
-- ThinBasic 1.13 above (recommend)  
+- ThinBasic 1.14 above (recommend)  
 - [UnRAR](https://www.rarlab.com/rar_add.htm)  
 
 ## How to Build
@@ -62,7 +62,7 @@ UnRAR.CloseArchive(hRARArchiveHandle)
 
 ## License
 
-Copyright (c) 2020-2024 Ji-Feng Tsai.  
+Copyright (c) 2020-2026 Ji-Feng Tsai.  
 Code released under the MIT license.  
 
 ## TODO
